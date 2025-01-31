@@ -18,6 +18,8 @@ html {
 
 #headertop {
     display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #headerlogo {
@@ -42,6 +44,24 @@ html {
     flex-direction: row;
     padding-top: 100px;
     padding-bottom: 100px;;
+}
+
+#hmainleft h1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+#hmainleft p {
+    padding: 0;
+    margin: 0;
+}
+button {
+    margin-top: 7px;
+    padding: 3px 15px 3px 15px;
+    color:#F9FAF8;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 5px;
 }
 
 #hmainleft {
