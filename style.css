@@ -1,0 +1,90 @@
+html {
+    font-family: Roboto, serif;
+}
+
+#flexmain {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#headertop {
+    display: flex;
+}
+
+#headerlogo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+    flex: 4 200px;
+}
+
+#headerlinks {
+    flex: 3 200px;
+    display: flex;
+    align-items: center;
+}
+
+.headerlink {
+    flex: 1 50px;
+}
+
+#headermain {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 100px;;
+}
+
+#hmainleft {
+    flex: 1 400px;
+}
+
+
+
+#hmainleft, .headerlink {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#hmainleft h1 {
+    font-weight: 900;
+    font-size: 48px; 
+    color: #F9FAF8;
+}
+
+#hmainright {
+    flex: 1 400px;
+    background-color: #606060;
+    align-content: center;
+    display: inline-flex;
+}
+
+#middle h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+#bigquote {
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+#calltoaction, .signup {
+    background-color: #3882F6;
+}
+
+#footer {
+    background-color: #1F2937;
+}
